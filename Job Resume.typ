@@ -90,7 +90,7 @@
 
 #project(
   name: "Access Finder",
-  dates: dates-helper(start-date: "Jan 2025", end-date: "Present"),
+  dates: dates-helper(start-date: "Dec 2024", end-date: "Present"),
 )
 - Coding a web app that helps those with disabilities find and rate accessible places and services near them
 - Using various APIs and modern web frameworks to build out functionality for the app

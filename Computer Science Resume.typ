@@ -69,7 +69,7 @@
 
 #project(
   name: "Access Finder",
-  dates: dates-helper(start-date: "Jan 2025", end-date: "Present"),
+  dates: dates-helper(start-date: "Dec 2024", end-date: "Present"),
   url: "dev.accessfinder.org",
   skills: "Typescript, Next.js, SQL, Tailwind CSS, Supabase"
 )
@@ -78,7 +78,7 @@
 - Designing a PostgreSQL database and creating responsive, accessibility-focused user interfaces with Tailwind
 #project(
   name: "Scrobble Quiz",
-  dates: dates-helper(start-date: "Jan 2025", end-date: "Present"),
+  dates: dates-helper(start-date: "Feb 2025", end-date: "Present"),
   url: "scrob.nayasinghania.com",
   skills: "Typescript, Next.js, Tailwind CSS, Python, FastAPI, K-Means"
 )
@@ -87,7 +87,7 @@
 - Generating dynamic quiz prompts with Llama AI models based on structured and processed user data
 #project(
   name: "Persona.fm",
-  dates: dates-helper(start-date: "June 2024", end-date: "Dec 2024"),
+  dates: dates-helper(start-date: "April 2022", end-date: "Feb 2025"),
   skills: "Typescript, Next.js, LLMs, Drizzle, Tailwind CSS, Supabase"
 )
 - Developed a web app that uses generative AI to provide Last.fm users with a persona of their listening habits
@@ -96,7 +96,7 @@
 - Maintained open source documentation and actively collaborated with 10+ contributors
 #project(
   name: "ChairSense",
-  dates: dates-helper(start-date: "Sep 2021", end-date: "Dec 2021"),
+  dates: dates-helper(start-date: "Nov 2021", end-date: "July 2022"),
   skills: "Embedded C++, Arduino"
 )
 - Researched existing solutions and identified a gap in affordable obstacle detection devices for wheelchair users

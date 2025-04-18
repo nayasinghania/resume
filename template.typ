@@ -94,9 +94,9 @@
           contact-item(email, link-type: "mailto:"),
           linebreak(),
           contact-item(github, link-type: "https://"),
-          text("|"),
+          if github != "" {text("|")},
           contact-item(linkedin, link-type: "https://"),
-          text("|"),
+          if github != "" {text("|")},
           contact-item(personal-site, link-type: "https://"),
           contact-item(orcid, prefix: [#orcid-icon(color: rgb("#AECD54"))orcid.org/], link-type: "https://orcid.org/"),
         )
@@ -181,7 +181,7 @@
   generic-one-by-two(
     left: {
       if role == "" {
-        [*#name* #if url != "" and dates != "" [ (#link("https://" + url)[#url])] #emph( " " + $dash.em$ + " " + [#text(size: 8.5pt)[#skills]])]
+        [*#name* #if url != "" and dates != "" [ (#link("https://" + url)[#url])] #emph( " " + [#if skills != "" {$dash.em$}] + " " + [#text(size: 8.5pt)[#skills]])]
       } else {
         [*#role*, #name #if url != "" and dates != ""  [ (#link("https://" + url)[#url])]]
       }

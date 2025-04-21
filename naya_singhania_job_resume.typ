@@ -25,7 +25,7 @@
   institution: "San José State University",
   location: "San José, CA",
   dates: dates-helper(start-date: "Aug 2023", end-date: "May 2027"),
-  degree: "Bachelor's of Science in Computer Science and Certificate in Computational Linguistics",
+  degree: "Bachelor of Science, Computer Science" + linebreak() + "Certificate, Computational Linguistics",
   
 )
 - Cumulative GPA: 3.76\/4.00

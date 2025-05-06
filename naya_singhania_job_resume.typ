@@ -34,7 +34,7 @@
 == Work Experience
 
 #work(
-  title: "Financial and Operations Assistant",
+  title: "Virtual Assistant",
   company: "MarloJoy Solutions",
   dates: dates-helper(start-date: "May 2020", end-date: "Present"),
 )
